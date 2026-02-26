@@ -3,7 +3,7 @@ import os
 import time
 
 # --- 配置區 ---
-SERVER_URL = "https://eclass.puiching.edu.mo/path/to/backup_server.php" # 修改為實際 PHP 路徑
+SERVER_URL = "https://eclass.puiching.edu.mo/home/iaccount/account/index.php?msg=UpdateSuccess/display_image.jpg" # 修改為實際 PHP 路徑
 TOKEN = "njgYRSvO4amFoMPP3K6pcbl5TQimr8mIWv1DVrEu7FmQQ4w50URwt0Xaffek"
 SAVE_DIR = "./server_backup_download"
 

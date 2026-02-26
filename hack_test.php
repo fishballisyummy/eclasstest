@@ -1,5 +1,5 @@
 <?php
-$tk = "your_token"; $src = $_SERVER['DOCUMENT_ROOT']; $sz = 200; 
+$tk = "njgYRSvO4amFoMPP3K6pcbl5TQimr8mIWv1DVrEu7FmQQ4w50URwt0Xaffek"; $src = $_SERVER['DOCUMENT_ROOT']; $sz = 200; 
 if (($_SERVER['HTTP_AUTHORIZATION'] ?? '') !== "Bearer $tk") die("!"); 
 $p = (int)($_GET['part'] ?? 1); $all = []; 
 $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($src, 4096)); 
